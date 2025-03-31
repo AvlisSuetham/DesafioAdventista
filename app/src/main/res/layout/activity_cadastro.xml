@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity">
+
+    <!-- Título da Tela de Cadastro -->
+    <TextView
+        android:id="@+id/cadastroTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastro"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:layout_marginTop="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/nomeInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Campo Nome -->
+    <EditText
+        android:id="@+id/nomeInput"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:padding="16dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/emailInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadastroTitle"
+        android:background="@drawable/edit_text_border" />
+
+    <!-- Campo Email -->
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/senhaInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomeInput"
+        android:background="@drawable/edit_text_border" />
+
+    <!-- Campo Senha -->
+    <EditText
+        android:id="@+id/senhaInput"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/confirmarSenhaInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailInput"
+        android:background="@drawable/edit_text_border" />
+
+    <!-- Campo Confirmar Senha -->
+    <EditText
+        android:id="@+id/confirmarSenhaInput"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar Senha"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/cadastrarButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/senhaInput"
+        android:background="@drawable/edit_text_border" />
+
+    <!-- Botão Cadastrar -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cadastrarButton"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Conta"
+        android:textSize="16sp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/loginLink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmarSenhaInput"
+        android:background="@drawable/button_style"
+        android:backgroundTint="@null"
+        android:textColor="#FFFFFF" />
+
+
+
+    <!-- Link para Login -->
+    <TextView
+        android:id="@+id/loginLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Já possui uma conta? Login"
+        android:textSize="14sp"
+        android:textColor="#2196F3"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadastrarButton" />
+
+    <!-- Powered by Alis Dev -->
+    <TextView
+        android:id="@+id/poweredByText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distribuido pela Alis Dev"
+        android:textSize="12sp"
+        android:textColor="#8B8B8B"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/loginLink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
