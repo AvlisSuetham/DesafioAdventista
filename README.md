@@ -1,58 +1,42 @@
-:
-📖 Desafio Adventista
-Desafio Adventista é um aplicativo Android desenvolvido em Kotlin que desafia os usuários com perguntas sobre a Bíblia, incentivando o estudo das Escrituras de forma interativa e dinâmica. O objetivo é fortalecer o conhecimento bíblico e a fé por meio de desafios de múltipla escolha.
+# 📖 Desafio Adventista
 
-✨ Funcionalidades
-✅ Geração automática de perguntas bíblicas.
-✅ Opções de resposta com múltipla escolha.
-✅ Interface intuitiva e fácil de usar.
-✅ Pontuação e feedback imediato para aprendizado contínuo.
-✅ Modo offline para jogar sem conexão com a internet.
+**Desafio Adventista** é um aplicativo Android desenvolvido em **Kotlin** que desafia os usuários com perguntas sobre a Bíblia, incentivando o estudo das Escrituras de forma interativa e dinâmica. O objetivo é fortalecer o conhecimento bíblico e a fé por meio de desafios de múltipla escolha.
 
-🚀 Tecnologias Utilizadas
-Kotlin
+## ✨ Funcionalidades
+- ✅ Geração automática de perguntas bíblicas.
+- ✅ Opções de resposta com múltipla escolha.
+- ✅ Interface intuitiva e fácil de usar.
+- ✅ Pontuação e feedback imediato para aprendizado contínuo.
+- ✅ Modo offline para jogar sem conexão com a internet.
 
-Jetpack Compose / XML (para a interface)
+## 🚀 Tecnologias Utilizadas
+- **Kotlin**
+- **Jetpack Compose / XML** (para a interface)
+- **Room Database** (para armazenamento de perguntas)
+- **ViewModel & LiveData** (para gerenciamento de estado)
 
-Room Database (para armazenamento de perguntas)
+## 📌 Como Contribuir
+1. Faça um **fork** do repositório.
+2. Clone o projeto:
+   ```bash
+   git clone https://github.com/seu-usuario/desafio-adventista.git
+   ```
+3. Crie uma branch para sua feature:
+   ```bash
+   git checkout -b minha-feature
+   ```
+4. Faça as alterações e commit:
+   ```bash
+   git commit -m "Adiciona nova funcionalidade"
+   ```
+5. Envie para o repositório:
+   ```bash
+   git push origin minha-feature
+   ```
+6. Abra um **Pull Request**! 🚀
 
-ViewModel & LiveData (para gerenciamento de estado)
+## 📱 Capturas de Tela *(Em breve)*
 
-📌 Como Contribuir
-Faça um fork do repositório.
+---
 
-Clone o projeto:
-
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/desafio-adventista.git
-Crie uma branch para sua feature:
-
-bash
-Copiar
-Editar
-git checkout -b minha-feature
-Faça as alterações e commit:
-
-bash
-Copiar
-Editar
-git commit -m "Adiciona nova funcionalidade"
-Envie para o repositório:
-
-bash
-Copiar
-Editar
-git push origin minha-feature
-Abra um Pull Request! 🚀
-
-📱 Capturas de Tela (Em breve)
-📢 Compartilhe o app e desafie seus amigos a testarem seus conhecimentos bíblicos! 🙏✨
-
-
-
-
-
-
-
+**📢 Compartilhe o app e desafie seus amigos a testarem seus conhecimentos bíblicos!** 🙏✨
