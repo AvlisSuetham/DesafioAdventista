@@ -1,6 +1,6 @@
 # 📖 Desafio Adventista
 
-O **Desafio Adventista** é uma jornada de fé, conhecimento e crescimento espiritual. Através de desafios interativos, perguntas bíblicas e atividades inspiradoras, você será incentivado a fortalecer sua relação com Deus, aprofundar seu entendimento das Escrituras e viver os princípios do evangelho no dia a dia.
+Embarque em uma jornada de fé, conhecimento e crescimento espiritual. Através de desafios interativos, perguntas bíblicas e atividades inspiradoras, você será incentivado a fortalecer sua relação com Deus, aprofundar seu entendimento das Escrituras e viver os princípios do evangelho no dia a dia.
 
 Cada desafio é uma oportunidade para testar seu conhecimento, refletir sobre ensinamentos bíblicos e compartilhar sua fé de maneira prática. Prepare-se para mergulhar na Palavra de Deus, superar obstáculos e fortalecer sua caminhada cristã! Você está pronto para aceitar esse desafio? ✨📖🙏
 
